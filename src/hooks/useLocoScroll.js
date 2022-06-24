@@ -6,6 +6,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 import '../styles/locoStyle.css';
 gsap.registerPlugin(ScrollTrigger);
 
+
 export default function useLocoScroll(start) {
   useEffect(() => {
     if (!start) return;
